@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Cart from './Cart'
+import { Fragment } from 'react';
+import  SearchItem  from "./SearchItem";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-          <h1>React Experiment</h1>
-          Learn React
-      </header>
-    </div>
+    <Fragment>
+      <SearchItem/>              
+    </Fragment>
+
   );
-}
+  }
 
 export default App;
